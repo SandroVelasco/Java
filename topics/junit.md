@@ -1,5 +1,6 @@
 - [JUnit](#junit)
-- [TDD](#test-driven-development--tdd-)
+- [TDD](#test-driven-development-tdd)
+- [Anotações (@Test...)](#anotações)
 
 # JUnit
 Biblioteca para desenvolvimento de testes.
@@ -40,3 +41,8 @@ Representa um modelo para a utilização de testes. O modelo consiste em um work
 `Criação do teste` -> `Implementação das funcionalidades` -> `Refatoração de código` 
 
 Para entender mais, pesquise por exemplos na internet.
+
+# Anotações
+- `@Test`: Sinaliza que um método será testado.
+- `@BeforeEach`: Sinaliza que esse método será executado antes de cada método.
+- `@AfterEach`: Sinaliza que esse método será executado após cada método.
